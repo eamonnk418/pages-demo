@@ -32,6 +32,12 @@ jobs:
         with:
           node-version-file: .tool-versions
           cache: pnpm
+      
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          package_json_file: package.json
+          run_install: false
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
