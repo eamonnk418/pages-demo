@@ -2,7 +2,6 @@
   "name": "pages-demo",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://eamonnk418.github.io/",
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
